@@ -102,7 +102,11 @@ pytest
 
 ## Detailed Guidelines
 
-A detailed form management guidelines are available in the [Fork Management](./docs/08-reference/03-fork-management.md)
+A detailed form management guidelines are available in the [Fork Management](./docs/11-how-to/08-fork-management.md)
+
+## Container Changes
+
+New Compose overrides must be included in the validation registry at `tests/compose-configs.json`. Follow [Validate container changes](docs/11-how-to/10-validate-container-changes.md) for local checks and the steps to register an override.
 
 ## Documentation
 
